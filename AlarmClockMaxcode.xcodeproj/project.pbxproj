@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		4169F2701E78583000A22CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F26F1E78583000A22CAC /* AppDelegate.swift */; };
-		4169F2721E78583000A22CAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2711E78583000A22CAC /* ViewController.swift */; };
 		4169F2751E78583000A22CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4169F2731E78583000A22CAC /* Main.storyboard */; };
 		4169F2771E78583100A22CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4169F2761E78583100A22CAC /* Assets.xcassets */; };
 		4169F27A1E78583100A22CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4169F2781E78583100A22CAC /* LaunchScreen.storyboard */; };
 		4169F2851E78583100A22CAC /* AlarmClockMaxcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2841E78583100A22CAC /* AlarmClockMaxcodeTests.swift */; };
 		4169F2901E78583100A22CAC /* AlarmClockMaxcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F28F1E78583100A22CAC /* AlarmClockMaxcodeUITests.swift */; };
+		4169F29E1E78598300A22CAC /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F29D1E78598300A22CAC /* Identifier.swift */; };
+		4169F2A51E785B4900A22CAC /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2A41E785B4900A22CAC /* Alarm.swift */; };
+		4169F2A81E785B9800A22CAC /* PropertyReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2A71E785B9800A22CAC /* PropertyReflectable.swift */; };
+		4169F2AA1E785CFD00A22CAC /* MainAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2A91E785CFD00A22CAC /* MainAlarmViewController.swift */; };
+		4169F2AD1E785D9700A22CAC /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2AC1E785D9700A22CAC /* Persistable.swift */; };
+		4169F2AF1E785F7200A22CAC /* SegueInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2AE1E785F7200A22CAC /* SegueInfo.swift */; };
+		4169F2B21E7860C800A22CAC /* AlarmApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2B01E7860C800A22CAC /* AlarmApplicationDelegate.swift */; };
+		4169F2B31E7860C800A22CAC /* AlarmSchedulerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2B11E7860C800A22CAC /* AlarmSchedulerDelegate.swift */; };
+		4169F2B51E7861A200A22CAC /* AlarmAddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2B41E7861A200A22CAC /* AlarmAddEditViewController.swift */; };
+		4169F2B91E78622600A22CAC /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2B61E78622600A22CAC /* MediaViewController.swift */; };
+		4169F2BA1E78622600A22CAC /* WeekdaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2B71E78622600A22CAC /* WeekdaysViewController.swift */; };
+		4169F2BB1E78622600A22CAC /* LabelEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2B81E78622600A22CAC /* LabelEditViewController.swift */; };
+		4169F2BD1E78635100A22CAC /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F2BC1E78635100A22CAC /* Scheduler.swift */; };
+		41ADF9FB1E81426B00CD6CA3 /* AlarmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ADF9FA1E81426B00CD6CA3 /* AlarmList.swift */; };
+		41ADF9FE1E81460D00CD6CA3 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ADF9FD1E81460D00CD6CA3 /* HTTP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		4169F26C1E78583000A22CAC /* AlarmClockMaxcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClockMaxcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4169F26F1E78583000A22CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4169F2711E78583000A22CAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4169F2741E78583000A22CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4169F2761E78583100A22CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4169F2791E78583100A22CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,21 @@
 		4169F28B1E78583100A22CAC /* AlarmClockMaxcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmClockMaxcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4169F28F1E78583100A22CAC /* AlarmClockMaxcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockMaxcodeUITests.swift; sourceTree = "<group>"; };
 		4169F2911E78583100A22CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4169F29D1E78598300A22CAC /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		4169F2A41E785B4900A22CAC /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		4169F2A71E785B9800A22CAC /* PropertyReflectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyReflectable.swift; sourceTree = "<group>"; };
+		4169F2A91E785CFD00A22CAC /* MainAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAlarmViewController.swift; sourceTree = "<group>"; };
+		4169F2AC1E785D9700A22CAC /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+		4169F2AE1E785F7200A22CAC /* SegueInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueInfo.swift; sourceTree = "<group>"; };
+		4169F2B01E7860C800A22CAC /* AlarmApplicationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmApplicationDelegate.swift; sourceTree = "<group>"; };
+		4169F2B11E7860C800A22CAC /* AlarmSchedulerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmSchedulerDelegate.swift; sourceTree = "<group>"; };
+		4169F2B41E7861A200A22CAC /* AlarmAddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmAddEditViewController.swift; sourceTree = "<group>"; };
+		4169F2B61E78622600A22CAC /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		4169F2B71E78622600A22CAC /* WeekdaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysViewController.swift; sourceTree = "<group>"; };
+		4169F2B81E78622600A22CAC /* LabelEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelEditViewController.swift; sourceTree = "<group>"; };
+		4169F2BC1E78635100A22CAC /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		41ADF9FA1E81426B00CD6CA3 /* AlarmList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmList.swift; sourceTree = "<group>"; };
+		41ADF9FD1E81460D00CD6CA3 /* HTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +125,15 @@
 		4169F26E1E78583000A22CAC /* AlarmClockMaxcode */ = {
 			isa = PBXGroup;
 			children = (
-				4169F26F1E78583000A22CAC /* AppDelegate.swift */,
-				4169F2711E78583000A22CAC /* ViewController.swift */,
-				4169F2731E78583000A22CAC /* Main.storyboard */,
-				4169F2761E78583100A22CAC /* Assets.xcassets */,
-				4169F2781E78583100A22CAC /* LaunchScreen.storyboard */,
-				4169F27B1E78583100A22CAC /* Info.plist */,
+				41ADF9FC1E8145F000CD6CA3 /* Services */,
+				4169F2AB1E785D4B00A22CAC /* Persistance */,
+				4169F2A61E785B7700A22CAC /* Protocols */,
+				4169F2A31E785B3700A22CAC /* Model */,
+				4169F29D1E78598300A22CAC /* Identifier.swift */,
+				4169F29F1E78599000A22CAC /* App Delegate */,
+				4169F2A01E78599900A22CAC /* ViewControllers */,
+				4169F2A21E7859B000A22CAC /* Storyboard */,
+				4169F2A11E7859A900A22CAC /* Resources */,
 			);
 			path = AlarmClockMaxcode;
 			sourceTree = "<group>";
@@ -123,6 +154,81 @@
 				4169F2911E78583100A22CAC /* Info.plist */,
 			);
 			path = AlarmClockMaxcodeUITests;
+			sourceTree = "<group>";
+		};
+		4169F29F1E78599000A22CAC /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4169F2BC1E78635100A22CAC /* Scheduler.swift */,
+				4169F26F1E78583000A22CAC /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		4169F2A01E78599900A22CAC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4169F2B61E78622600A22CAC /* MediaViewController.swift */,
+				4169F2B71E78622600A22CAC /* WeekdaysViewController.swift */,
+				4169F2B81E78622600A22CAC /* LabelEditViewController.swift */,
+				4169F2B41E7861A200A22CAC /* AlarmAddEditViewController.swift */,
+				4169F2A91E785CFD00A22CAC /* MainAlarmViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4169F2A11E7859A900A22CAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4169F2761E78583100A22CAC /* Assets.xcassets */,
+				4169F2781E78583100A22CAC /* LaunchScreen.storyboard */,
+				4169F27B1E78583100A22CAC /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4169F2A21E7859B000A22CAC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4169F2731E78583000A22CAC /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		4169F2A31E785B3700A22CAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4169F2AE1E785F7200A22CAC /* SegueInfo.swift */,
+				4169F2A41E785B4900A22CAC /* Alarm.swift */,
+				41ADF9FA1E81426B00CD6CA3 /* AlarmList.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4169F2A61E785B7700A22CAC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4169F2A71E785B9800A22CAC /* PropertyReflectable.swift */,
+				4169F2B01E7860C800A22CAC /* AlarmApplicationDelegate.swift */,
+				4169F2B11E7860C800A22CAC /* AlarmSchedulerDelegate.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		4169F2AB1E785D4B00A22CAC /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				4169F2AC1E785D9700A22CAC /* Persistable.swift */,
+			);
+			name = Persistance;
+			sourceTree = "<group>";
+		};
+		41ADF9FC1E8145F000CD6CA3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				41ADF9FD1E81460D00CD6CA3 /* HTTP.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +368,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4169F2721E78583000A22CAC /* ViewController.swift in Sources */,
+				4169F2B21E7860C800A22CAC /* AlarmApplicationDelegate.swift in Sources */,
+				41ADF9FB1E81426B00CD6CA3 /* AlarmList.swift in Sources */,
+				4169F2BD1E78635100A22CAC /* Scheduler.swift in Sources */,
+				4169F2B51E7861A200A22CAC /* AlarmAddEditViewController.swift in Sources */,
+				4169F2B31E7860C800A22CAC /* AlarmSchedulerDelegate.swift in Sources */,
+				41ADF9FE1E81460D00CD6CA3 /* HTTP.swift in Sources */,
+				4169F2A51E785B4900A22CAC /* Alarm.swift in Sources */,
+				4169F2AD1E785D9700A22CAC /* Persistable.swift in Sources */,
+				4169F2A81E785B9800A22CAC /* PropertyReflectable.swift in Sources */,
+				4169F2B91E78622600A22CAC /* MediaViewController.swift in Sources */,
+				4169F29E1E78598300A22CAC /* Identifier.swift in Sources */,
 				4169F2701E78583000A22CAC /* AppDelegate.swift in Sources */,
+				4169F2BA1E78622600A22CAC /* WeekdaysViewController.swift in Sources */,
+				4169F2BB1E78622600A22CAC /* LabelEditViewController.swift in Sources */,
+				4169F2AA1E785CFD00A22CAC /* MainAlarmViewController.swift in Sources */,
+				4169F2AF1E785F7200A22CAC /* SegueInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +634,7 @@
 				4169F2961E78583100A22CAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4169F2971E78583100A22CAC /* Build configuration list for PBXNativeTarget "AlarmClockMaxcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +643,7 @@
 				4169F2991E78583100A22CAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4169F29A1E78583100A22CAC /* Build configuration list for PBXNativeTarget "AlarmClockMaxcodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +652,7 @@
 				4169F29C1E78583100A22CAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
